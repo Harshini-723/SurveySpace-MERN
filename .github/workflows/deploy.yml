@@ -35,7 +35,7 @@ jobs:
         working-directory: client
 
       - name: Build frontend
-        run: npm run build
+        run: npm run build -- --base=/SurveySpace-MERN/
         working-directory: client
 
       - name: Upload artifact
